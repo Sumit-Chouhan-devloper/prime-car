@@ -387,9 +387,6 @@ nav .humberbox span {
     max-width: 350px;
 }
 
-.overlay_img img {
-    min-height: 230px;
-}
 
 .form_input {
     background-color: #161616;
@@ -485,7 +482,6 @@ footer div .icon {
     position: absolute;
     top: -5%;
 }
-
 
 
 
@@ -597,6 +593,17 @@ footer div .icon {
         --fs-3xl: 110px;
         --fs-4xl: 120px;
     }
+}
+
+@media (min-width:1320px) {
+    .container {
+        max-width: 1720px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 @media (min-width:1400px) {
