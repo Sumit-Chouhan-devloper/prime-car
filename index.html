@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing-page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+
+<body>
+    <div class=" hero_bg vh-100 hero_section ">
+        <div class="container">
+            <nav class="container py-2 position-fixed top-0 ">
+                <div class="d-flex justify-content-between align-items-center h-100 ">
+                    <div class="logo curser_pointer ">Prime Car</div>
+                    <div class="humberbox d-lg-none me-3" onclick="change()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="d-flex gap-sm-4 gap-2 align-items-center m-0 nav_bar" id="click_nav">
+
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Benefits</a></li>
+                        <li><a href="#">Cars</a></li>
+                        <li class="nav_btn curser_pointer d-lg-none"> Contact Us</li>
+                    </ul>
+                    <div class="d-none d-lg-block"><button>Contact Us</button></div>
+                </div>
+            </nav>
+        </div>
+        <section>
+            <div class="container min-vh-100 d-flex align-items-center">
+                <div class="hero_content d-flex align-items-end flex-column py-lg-5 py-3 flex-grow-1">
+                    <h1 class="m-0 text-end text-white pt-3">More economy, same speed</h1>
+                    <p class="">The most beloved cars of the moment for those who want to ride in style without
+                        spending
+                        too much</p>
+                    <div><button class="hero_btn">Discover <img class="ps-2" src="./assets/images/hero_btn_arrow.png"
+                                alt=""></button></div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!-- main -->
+    <main>
+        <!-- black frari section -->
+        <section class="bg_darkblack py-md-5 py-lg-4 py-3 position-relative">
+            <div class="container py-lg-5">
+                <h1 class="text-center text-white fs_4xl ff_amercian_caption pb-lg-5 pb-2">About Us</h1>
+                <div class="row">
+                    <div class="col-xl-6">
+
+                        <div class="box">
+                            <p class="ff_sf_pro text-white fs_md fw-normal m-0">We pride ourselves at being able to get
+                                our customer
+                                into the car that they want, and
+                                more importantly, at they price they are looking for.</p>
+                            <p class="ff_sf_pro text-white fs_md fw-normal m-0">
+
+                                We maintain outstanding customer service by listening to our customers and making sure
+                                that we meet their needs. Even if you don't buy from us, we will offer free advice on
+                                whe to look for when buying a used car or truck.</p>
+                            <p class="ff_sf_pro text-white fs_md fw-normal">
+
+                                Our philosophy is to accomodate you, the customer, with outstanding service while
+                                providing you the highest quality automobile needs at wholesale prices. We have a wide
+                                selection of vehicles and the expertise to deal with what you are looking for.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-6 z-1 ">
+                        <div class="box h-100 pt-3 pt-xl-0"><img class="w-100 h-100 "
+                                src="./assets/images/black_frari.png" alt="frarri"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-absolute bottom-0 end-0 d-none d-lg-block">
+                <img class="" src="./assets/images/black_frari_bottom_logo.png" alt="section_logo">
+            </div>
+        </section>
+        <!-- card section -->
+        <section class="bg_lightblack py-lg-5 py-4 position-relative overflow-hidden">
+            <div class="container ">
+                <h2 class="ff_amercian_caption fs_2xl text-white text-center">All the benefits you will get when you
+                    shop with us</h2>
+                <p class="ff_sf_pro fs_md text-white text-center pt-4">Take advantage of everything you can have now by
+                    buying your new car at Prime Car</p>
+                <div class="row pt-5 pb-4">
+                    <div class="col-lg-4 pt-2 pt-md-5 col-md-6">
+                        <div class="box bg_green d-flex flex-column align-items-center  rounded-3  mt-5 card_hover">
+                            <div class="card_img1"><img class="w-100" src="./assets/images/card_1.png"
+                                    alt="location-img"></div>
+                            <div class="card_content d-flex flex-column justify-content-center align-items-center">
+                                <h4 class="ff_sf_pro fw-bold fs_lg text-white m-0">Several Headquarters</h4>
+                                <p class=" ff_sf_pro fw-medium text-white m-0 pt-4 text-center px-5">You can find
+                                    several
+                                    Prime Car
+                                    stores
+                                    around the United States!</p>
+                                <p class=" ff_sf_pro fw-medium text-white pt-3 mb-0 underline_p card_p_border">Find the
+                                    store closest
+                                    to you now
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pt-5 col-md-6 pb-4">
+                        <div class="box bg_red d-flex flex-column align-items-center  rounded-3 mt-5 card_hover">
+                            <div class="card_img2"><img class="w-100" src="./assets/images/card-2.png"
+                                    alt="location-img"></div>
+                            <div class="card_content d-flex flex-column justify-content-center align-items-center">
+                                <h4 class="ff_sf_pro fw-bold fs_lg text-white m-0">Several Headquarters</h4>
+                                <p class=" ff_sf_pro fw-medium text-white m-0 pt-4 text-center px-5">You can find
+                                    several
+                                    Prime Car
+                                    stores
+                                    around the United States!</p>
+                                <p class=" ff_sf_pro fw-medium text-white pt-3 mb-0">Find the store closest to you now
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pt-5 col-md-6 ">
+                        <div class="box bg_blue d-flex flex-column align-items-center  rounded-3 mt-5 card_hover">
+                            <div class="card_img3"><img class="w-100" src="./assets/images/card-3.png"
+                                    alt="location-img"></div>
+                            <div class="card_content d-flex flex-column justify-content-center align-items-center">
+                                <h4 class="ff_sf_pro fw-bold fs_lg text-white m-0">Several Headquarters</h4>
+                                <p class=" ff_sf_pro fw-medium text-white m-0 pt-4 text-center px-5">You can find
+                                    several
+                                    Prime Car
+                                    stores
+                                    around the United States!</p>
+                                <p class=" ff_sf_pro fw-medium text-white pt-3 mb-0">Find the store closest to you now
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="position-absolute  d-none d-xl-block abs_top_line"><img src="./assets/images/card_line_top.png"
+                    alt="lines"></div>
+            <div class="position-absolute  d-none d-xl-block abs_bottom_line"><img
+                    src="./assets/images/card_line_bottom.png" alt="lines"></div>
+        </section>
+        <!-- heading and para -->
+        <section class="bg_darkblack py-lg-5 py-3">
+            <div class="container">
+                <h2 class=" ff_amercian_caption fs_2xl text-white">The cars that are hot right now</h2>
+                <p class="ff_sf_pro text-white fs_md m-0">Buy yours and be the most stylish in the neighborhood</p>
+            </div>
+        </section>
+        <!-- slider cars -->
+        <section class="overflow-hidden ">
+
+            <div class="d-flex slider1">
+
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_1.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_2.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_3.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_4.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_1.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_2.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_3.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_4.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex slider2">
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_5.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100" src="./assets/images/marque_img_6.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100" src="./assets/images/marque_img_7.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div><img class="w-100 h-100" src="./assets/images/marque_img_8.png" alt="car">
+
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_9.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100" src="./assets/images/marque_img_5.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative"><img class="w-100 " src="./assets/images/marque_img_6.png"
+                        alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative">
+                    <img class="w-100 " src="./assets/images/marque_img_7.png" alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+                <div class="overlay_img position-relative">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div><img class="w-100 h-100" src="./assets/images/marque_img_8.png" alt="car">
+
+                </div>
+                <div class="overlay_img position-relative">
+                    <img class="w-100 " src="./assets/images/marque_img_9.png" alt="car">
+                    <div
+                        class="position-absolute top-0 start-0 overlay_box d-flex justify-content-center flex-column p-5 align-items-center">
+                        <h2 class="ff_sf_pro fs_lg text-white fw-bold m-0 pt-1">Tesla Model 3</h2>
+                        <p class="fw-medium ff_sf_pro text-white text-center m-0 pt-1">Disruptive, avant-garde,
+                            futuristic, innovative.</p>
+                        <div class="pb-2 py-2 m-0"><button class="px-3 rounded-2">Contact</button></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <!-- blue buggati section-->
+        <section class="py-lg-5 py-3 bg_lightblack position-relative ">
+            <div class="container py-lg-5 ">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6 z-3   ">
+                        <h2 class="ff_amercian_caption text-white fs_4xl m-0 z-3">Be amazed by the power</h2>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-lg-end">
+                        <p class="ff_sf_pro text-white fs_lg mw_400 m-0">Speed and economy together in one place, use
+                            and abuse your car's potential.</p>
+                    </div>
+                </div>
+                <div class="position-relative z-2 pt-3">
+                    <img class="w-100" src="./assets/images/blue_bugati.png" alt="buggati">
+
+                    <div class="car_center_box position-absolute ps-2 curser_pointer"><svg width="30" height="29"
+                            viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M46.9515 21.5922L5.27677 0.350898C4.71456 0.0853684 4.09612 -0.0326008 3.47776 0.00772819C2.8594 0.0480572 2.26076 0.245404 1.73632 0.581804C1.21188 0.918204 0.778314 1.38297 0.475077 1.9338C0.171841 2.48463 0.0085697 3.10403 0.000126014 3.73561V46.2C-0.00512438 46.8483 0.153777 47.487 0.461471 48.0544C0.769166 48.6219 1.21525 49.0988 1.7566 49.4391C2.29796 49.7794 2.91627 49.9716 3.55179 49.9971C4.18731 50.0226 4.81854 49.8805 5.38446 49.5847L46.9515 28.3433C47.5673 28.0283 48.0849 27.5449 48.4467 26.9471C48.8084 26.3494 49 25.661 49 24.9586C49 24.2563 48.8084 23.5678 48.4467 22.9701C48.0849 22.3724 47.5673 21.889 46.9515 21.5739V21.5922Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="position-absolute green_star"><img class="w-100" src="./assets/images/green_star.png"
+                            alt="star"></div>
+                    <div class="position-absolute bottom-0 blue_star"><img class="w-100"
+                            src="./assets/images/blue_star.png" alt="star"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- form section -->
+        <section class="bg_darkblack py-lg-5 py-3 position-relative overflow-hidden">
+            <div class="contect_us_bg_img d-none d-lg-block"> <img class="w-50"
+                    src="./assets/images/contach_us_bg_img.png" alt="bg-img"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 ">
+
+                        <h2 class="text-white ff_amercian_caption fs_3xl">Contact us</h2>
+                        <p class="ff_sf_pro text-white fs_slg form_para">To find out more information about cars and
+                            quotes, fill out the form on the side or contact
+                            us by phone.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6 pt-3"><input class="w-100 form_input" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="col-6 pt-3"><input class="w-100 form_input" type="text"
+                                    placeholder="Your Email"></div>
+                            <div class="col-6 pt-3"><input class="w-100 form_input" type="text"
+                                    placeholder="Phone Number"></div>
+                            <div class="col-6 pt-3">
+                                <select class="w-100 form_dropdown">
+                                    <option>contary</option>
+                                    <option>india</option>
+                                    <option>usa</option>
+                                    <option>russia</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="pt-4"><input class="w-100 form_input" type="text" placeholder="Message"></div>
+                        <div class="pt-4"><button class="form_button">Submit</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- map section -->
+        <section class="overflow-hidden">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6968.594668644288!2d75.71856704879711!3d29.155909136872676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391233d0d797efb7%3A0x90a59576018cca5f!2sRadialcode!5e0!3m2!1sen!2sin!4v1682085303230!5m2!1sen!2sin"
+                width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!-- footer -->
+        <footer class="py-lg-5  py-3 bg_darkblack">
+            <div class="container ">
+                <div class="row justify-content-between">
+                    <div class="col-xl-2 col-lg-3 ">
+                        <H2 class="ff_amercian_caption text-white fs_s2xl curser_pointer">Prime Car</H2>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6 pt-2 pt-sm-3 pt-lg-0">
+                        <H3>
+                            Where are we
+                        </H3>
+                        <ul class="m-0 ps-0">
+                            <li><a href="#">Georgia</a></li>
+
+                            <li><a href="#">Texas</a></li>
+
+                            <li><a href="#">California</a></li>
+
+                            <li><a href="#">Virginia</a></li>
+
+                            <li><a href="#">Colorado</a></li>
+
+                            <li><a href="#">Pennsylvania</a></li>
+
+                            <li><a href="#">Massachusetts</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6 pt-3  pt-lg-0">
+                        <H3>Quick links</H3>
+                        <ul class="m-0 ps-0">
+                            <li><a href="#"> About Us</a></li>
+                            <li><a href="#"> Our Services</a></li>
+                            <li><a href="#"> Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6 pt-3 pt-lg-0">
+                        <h3>Email Us</h3>
+                        <ul class="m-0 ps-0">
+                            <li><a href="#"> @primecar.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6 pt-3 pt-lg-0">
+                        <h3>Call Us</h3>
+                        <ul class="ps-0">
+                            <li><a href="#">+999-9-999-9999</a></li>
+                            <li><a href="#"> +111-11-111-1111</a></li>
+                        </ul>
+                        <div>
+                            <span class="curser_pointer "><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0 12C0 17.9333 4.33333 22.8667 10 23.8667L10.0669 23.8132C10.0446 23.8088 10.0223 23.8045 10 23.8V15.3333H7V12H10V9.33333C10 6.33333 11.9333 4.66667 14.6667 4.66667C15.5333 4.66667 16.4667 4.8 17.3333 4.93333V8H15.8C14.3333 8 14 8.73333 14 9.66667V12H17.2L16.6667 15.3333H14V23.8C13.9777 23.8045 13.9554 23.8088 13.9331 23.8132L14 23.8667C19.6667 22.8667 24 17.9333 24 12C24 5.4 18.6 0 12 0C5.4 0 0 5.4 0 12Z"
+                                        fill="white" />
+                                </svg>
+
+                            </span>
+                            <span class="curser_pointer ps-3 "><svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.27557 0.666748C1.38701 0.666748 0.666687 1.38707 0.666687 2.27563V21.7245C0.666687 22.613 1.38701 23.3334 2.27557 23.3334H21.7245C22.613 23.3334 23.3334 22.613 23.3334 21.7245V2.27563C23.3334 1.38707 22.613 0.666748 21.7245 0.666748H2.27557ZM5.75431 7.70589C6.84029 7.70589 7.72064 6.82554 7.72064 5.73956C7.72064 4.65359 6.84029 3.77323 5.75431 3.77323C4.66834 3.77323 3.78798 4.65359 3.78798 5.73956C3.78798 6.82554 4.66834 7.70589 5.75431 7.70589ZM9.52146 9.15906H12.7803V10.652C12.7803 10.652 13.6646 8.88329 16.0708 8.88329C18.2172 8.88329 19.9952 9.94065 19.9952 13.1636V19.9598H16.6181V13.9871C16.6181 12.0859 15.6031 11.8768 14.8296 11.8768C13.2245 11.8768 12.9497 13.2613 12.9497 14.2351V19.9598H9.52146V9.15906ZM7.46841 9.15908H4.04021V19.9598H7.46841V9.15908Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <span class="curser_pointer ps-3 "><svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.0005 0.363525C8.84036 0.363525 8.44377 0.377344 7.20259 0.433829C5.96384 0.490556 5.11829 0.686677 4.37843 0.974435C3.61312 1.27165 2.96393 1.66922 2.31716 2.31625C1.66991 2.96304 1.27235 3.61225 0.974173 4.37734C0.685697 5.11746 0.48934 5.96328 0.433584 7.20159C0.37807 8.4428 0.363525 8.83965 0.363525 11.9999C0.363525 15.1601 0.377586 15.5555 0.433827 16.7967C0.490794 18.0355 0.68691 18.8811 0.974416 19.621C1.27186 20.3863 1.66943 21.0355 2.31644 21.6823C2.96296 22.3296 3.61215 22.7281 4.37698 23.0253C5.11732 23.3131 5.96311 23.5092 7.20162 23.5659C8.4428 23.6224 8.83915 23.6363 11.9991 23.6363C15.1594 23.6363 15.5548 23.6224 16.796 23.5659C18.0347 23.5092 18.8813 23.3131 19.6216 23.0253C20.3867 22.7281 21.0349 22.3296 21.6814 21.6823C22.3287 21.0355 22.7262 20.3863 23.0244 19.6212C23.3105 18.8811 23.5068 18.0353 23.565 16.797C23.6208 15.5558 23.6353 15.1601 23.6353 11.9999C23.6353 8.83965 23.6208 8.44304 23.565 7.20183C23.5068 5.96304 23.3105 5.11746 23.0244 4.37759C22.7262 3.61225 22.3287 2.96304 21.6814 2.31625C21.0342 1.66898 20.3869 1.2714 19.6209 0.974435C18.8791 0.686677 18.0331 0.490556 16.7943 0.433829C15.5531 0.377344 15.158 0.363525 11.9969 0.363525H12.0005ZM10.9567 2.46049C11.2665 2.46001 11.6122 2.46049 12.0005 2.46049C15.1073 2.46049 15.4756 2.47165 16.7024 2.5274C17.8369 2.57928 18.4527 2.76886 18.8628 2.92813C19.4059 3.13904 19.793 3.39116 20.2 3.79843C20.6073 4.20571 20.8594 4.59359 21.0708 5.13662C21.23 5.54631 21.4199 6.16207 21.4715 7.29662C21.5272 8.52328 21.5394 8.89177 21.5394 11.9972C21.5394 15.1027 21.5272 15.4712 21.4715 16.6978C21.4196 17.8324 21.23 18.4481 21.0708 18.8578C20.8599 19.4009 20.6073 19.7875 20.2 20.1946C19.7928 20.6018 19.4061 20.8539 18.8628 21.0649C18.4532 21.2249 17.8369 21.4139 16.7024 21.4658C15.4758 21.5216 15.1073 21.5337 12.0005 21.5337C8.89345 21.5337 8.52522 21.5216 7.29859 21.4658C6.16408 21.4135 5.54834 21.2239 5.13793 21.0646C4.59491 20.8537 4.20705 20.6016 3.79978 20.1943C3.39252 19.787 3.14041 19.4001 2.92902 18.8569C2.76976 18.4472 2.57994 17.8314 2.52831 16.6969C2.47255 15.4702 2.4614 15.1017 2.4614 11.9943C2.4614 8.88692 2.47255 8.52037 2.52831 7.29371C2.58019 6.15916 2.76976 5.5434 2.92902 5.13322C3.13993 4.59019 3.39252 4.20231 3.79978 3.79504C4.20705 3.38777 4.59491 3.13565 5.13793 2.92425C5.5481 2.76425 6.16408 2.57516 7.29859 2.52304C8.37201 2.47456 8.788 2.46001 10.9567 2.45759V2.46049ZM18.2117 4.39262C17.4408 4.39262 16.8154 5.01734 16.8154 5.78849C16.8154 6.5594 17.4408 7.18486 18.2117 7.18486C18.9826 7.18486 19.608 6.5594 19.608 5.78849C19.608 5.01759 18.9826 4.39262 18.2117 4.39262ZM12.0005 6.02413C8.70048 6.02413 6.02493 8.69977 6.02493 11.9999C6.02493 15.3 8.70048 17.9744 12.0005 17.9744C15.3005 17.9744 17.9751 15.3 17.9751 11.9999C17.9751 8.69977 15.3005 6.02413 12.0005 6.02413ZM12.0005 8.1211C14.1425 8.1211 15.8792 9.85759 15.8792 11.9999C15.8792 14.1419 14.1425 15.8787 12.0005 15.8787C9.85827 15.8787 8.12184 14.1419 8.12184 11.9999C8.12184 9.85759 9.85827 8.1211 12.0005 8.1211Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        // for storing element in variable
+        const myNav = document.getElementById("click_nav");
+        // for adding class on element
+        function change() {
+            myNav.classList.toggle("show");
+        }
+        $('.slider1').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            cssEase: 'linear',
+            autoplayspeed: 0,
+            speed: 3000,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+        $('.slider2').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            cssEase: 'linear',
+            autoplayspeed: 0,
+            speed: 3000,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+</body>
+
+</html>

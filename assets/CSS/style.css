@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+
+}
+
+@font-face {
+    font-family: 'American Captain';
+    src: url(../fonts/American\ Captain.otf);
+    src: url(../fonts/American\ Captain.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../fonts/SFPRODISPLAYBLACKITALIC.OTF);
+    src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+    src: url(../fonts/SFPRODISPLAYHEAVYITALIC.OTF);
+    src: url(../fonts/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+    font-family: 'helvita';
+    src: url(../fonts/Neue\ Helvetica\ Condensed\ BQ\ Regular.otf);
+}
+
+:root {
+    --fs-sm: 14px;
+    --fs-smd: 16px;
+    --fs-md: 16px;
+    --fs-Slg: 18px;
+    --fs-lg: 22px;
+    --fs-sxl: 20px;
+    --fs-xl: 22px;
+    --fs-s2xl: 40px;
+    --fs-2xl: 26px;
+    --fs-3xl: 32px;
+    --fs-4xl: 60px;
+    --bg-darkblack: #161616;
+    --bg-lightblack: #1A191A;
+    --bg-green: rgba(0, 221, 168, 0.5);
+    --bg-red: rgba(207, 41, 41, 0.6);
+    --bg-blue: rgba(0, 88, 221, 0.6);
+
+
+}
+
+.bg_blue {
+    background: var(--bg-blue);
+}
+
+.bg_green {
+    background-color: var(--bg-green);
+}
+
+.bg_red {
+    background-color: var(--bg-red);
+}
+
+.bg_darkblack {
+    background-color: var(--bg-darkblack);
+}
+
+.bg_lightblack {
+    background-color: var(--bg-lightblack);
+}
+
+.ff_amercian_caption {
+    font-family: 'American Captain';
+}
+
+.ff_sf_pro {
+    font-family: 'SF Pro Display';
+}
+
+.ff_helvita {
+    font-family: 'helvita';
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_smd {
+    font-size: var(--fs-smd);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_slg {
+    font-size: var(--fs-slg);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_sxl {
+    font-size: var(--fs-sxl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_s2xl {
+    font-size: var(--fs-s2xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+
+.curser_pointer {
+    cursor: pointer;
+}
+
+.object_fit_c {
+    object-fit: cover;
+}
+
+.z_-1 {
+    z-index: -6;
+}
+
+nav {
+    z-index: 99;
+
+}
+
+.white_s_no {
+    white-space: nowrap;
+}
+
+.underline_p {
+    position: relative;
+}
+
+
+.hero_bg {
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.logo {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+
+
+nav ul li a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    transition: all 400ms linear;
+    color: #FFFFFF;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    bottom: -5px;
+    opacity: 0;
+    border-radius: 2px;
+}
+
+nav ul li a:hover::before {
+    opacity: 1;
+}
+
+nav div button {
+    font-family: 'SF Pro Display';
+    padding: 8px 50px;
+    font-size: var(--fs-md);
+    background-color: transparent;
+    border: 3px solid white;
+    color: #FFFFFF;
+    border-radius: 10px;
+    transition: all 100ms linear;
+}
+
+.hero_btn:hover img {
+    /* transform: rotate(30deg); */
+    transform: translate(7px, -8px);
+}
+
+nav div button:hover {
+    box-shadow: 2px 2px rgb(253, 251, 251);
+}
+
+
+.humberbox {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+nav .humberbox span {
+    height: 5px;
+    width: 100%;
+    margin-top: 6px;
+    background-color: white;
+
+}
+
+.hero_content h1 {
+    font-family: 'American Captain';
+    font-size: var(--fs-4xl);
+    max-width: 811px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.hero_content p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-lg);
+    max-width: 311px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.hero_btn {
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border-radius: 10px;
+}
+
+.nav_btn {
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border-radius: 10px;
+}
+
+.bg_blur {
+    backdrop-filter: blur(16px);
+    z-index: 8;
+}
+
+.card_img1 {
+    transform: translatey(-35%);
+}
+
+.card_img2 {
+    transform: translatey(-40%);
+}
+
+.card_img3 {
+    transform: translatey(-34%);
+}
+
+.card_content {
+    transform: translatey(-20%)
+}
+
+/* cars slider */
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
+/* slider end */
+.overlay_box {
+    background: #000000CC;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    transition: all 300ms linear;
+}
+
+.overlay_img:hover .overlay_box {
+    opacity: 1;
+}
+
+.overlay_box div button {
+    background: transparent;
+    color: #FFFFFF;
+    border: 2px solid white;
+}
+
+.mw_400 {
+    max-width: 400px;
+}
+
+.car_center_box {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.abs_bottom_line {
+    bottom: -20px;
+    right: -40px;
+}
+
+.abs_top_line {
+    top: -40px;
+    left: -20px;
+}
+
+.green_star {
+    display: none;
+}
+
+.blue_star {
+    display: none;
+}
+
+.card_p_border {
+    border-bottom: 2px solid white;
+}
+
+.card_hover:hover {
+    transform: translatey(-20px);
+    transition: all 300ms linear;
+}
+
+/* roots media queries */
+
+.form_para {
+    max-width: 350px;
+}
+
+.overlay_img img {
+    min-height: 230px;
+}
+
+.form_input {
+    background-color: #161616;
+    outline: none;
+    box-shadow: none;
+    color: #F2F2F2;
+    border: none;
+
+    border-bottom: 2px solid white;
+}
+
+.form_input::placeholder {
+    color: #F2F2F2;
+    font-family: 'Helvetica';
+}
+
+.form_dropdown {
+    background-color: #161616;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #F2F2F2;
+    border-bottom: 2px solid white;
+}
+
+.form_button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 30px;
+    border-radius: 10px;
+    transition: all 300ms linear;
+}
+
+.form_button:hover {
+    transform: translatey(10%);
+}
+
+footer h3 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 8px;
+}
+
+footer ul li {
+    padding-top: 10px !important;
+}
+
+footer ul li a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 0 !important;
+    font-size: 17px;
+    line-height: 11px;
+    color: #BDBDBD;
+    cursor: pointer;
+
+    position: relative;
+}
+
+footer ul li a::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    border-radius: 5px;
+    bottom: -5px;
+    width: 100%;
+    transition: all 200ms linear;
+    opacity: 0;
+    background-color: white;
+}
+
+footer ul li a:hover::before {
+    opacity: 1;
+}
+
+
+footer div .icon {
+    margin: 10px;
+}
+
+
+.contect_us_bg_img {
+    position: absolute;
+    top: -5%;
+}
+
+
+
+
+@media (max-width:992px) {
+
+    .nav_bar {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        top: 10%;
+        left: 100%;
+        line-height: 30px;
+        height: 100%;
+        z-index: 3;
+        padding-left: 0;
+        pointer-events: none;
+        transition: linear 500ms;
+        backdrop-filter: blur(16px);
+        z-index: 99;
+    }
+
+    .show {
+        left: 0;
+        transition: all 400ms ease-in-out;
+    }
+
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-sm: 14px;
+        --fs-smd: 16px;
+        --fs-md: 16px;
+        --fs-Slg: 18px;
+        --fs-lg: 24px;
+        --fs-sxl: 22px;
+        --fs-xl: 24px;
+        --fs-s2xl: 35px;
+        --fs-2xl: 28px;
+        --fs-3xl: 34px;
+        --fs-4xl: 80px;
+    }
+
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-sm: 16px;
+        --fs-smd: 17px;
+        --fs-md: 18px;
+        --fs-Slg: 20px;
+        --fs-lg: 22px;
+        --fs-sxl: 24px;
+        --fs-xl: 26px;
+        --fs-s2xl: 40px;
+        --fs-2xl: 30px;
+        --fs-3xl: 40px;
+        --fs-4xl: 90px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-sm: 16px;
+        --fs-smd: 18px;
+        --fs-md: 20px;
+        --fs-Slg: 22px;
+        --fs-lg: 24px;
+        --fs-sxl: 26px;
+        --fs-xl: 28px;
+        --fs-s2xl: 50px;
+        --fs-2xl: 40px;
+        --fs-3xl: 60px;
+        --fs-4xl: 100px;
+    }
+
+    .green_star {
+        display: block;
+        top: -20%;
+        left: -15%;
+        z-index: -1;
+        max-width: 280px;
+    }
+
+    .blue_star {
+        bottom: -100px !important;
+        display: block;
+        right: -10%;
+        max-width: 280px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    :root {
+        --fs-sm: 16px;
+        --fs-smd: 20px;
+        --fs-md: 22px;
+        --fs-Slg: 24px;
+        --fs-lg: 26px;
+        --fs-sxl: 34px;
+        --fs-xl: 52px;
+        --fs-s2xl: 50px;
+        --fs-2xl: 100px;
+        --fs-3xl: 110px;
+        --fs-4xl: 120px;
+    }
+}
+
+@media (min-width:1400px) {
+    :root {
+        --fs-sm: 16px;
+        --fs-smd: 20px;
+        --fs-md: 24px;
+        --fs-slg: 30px;
+        --fs-lg: 32px;
+        --fs-sxl: 35px;
+        --fs-xl: 56px;
+        --fs-s2xl: 100px;
+        --fs-2xl: 110px;
+        --fs-3xl: 120px;
+        --fs-4xl: 130px;
+    }
+
+}
