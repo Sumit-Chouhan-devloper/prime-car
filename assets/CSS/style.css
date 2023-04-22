@@ -595,16 +595,6 @@ footer div .icon {
     }
 }
 
-@media (min-width:1320px) {
-    .container {
-        max-width: 1720px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
 
 @media (min-width:1400px) {
     :root {
@@ -619,6 +609,17 @@ footer div .icon {
         --fs-2xl: 110px;
         --fs-3xl: 120px;
         --fs-4xl: 130px;
+    }
+
+}
+
+@media (min-width:1720px) {
+    .container {
+        max-width: 1720px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
