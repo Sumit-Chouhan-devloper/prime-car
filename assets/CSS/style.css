@@ -394,7 +394,7 @@ nav .humberbox span {
     box-shadow: none;
     color: #F2F2F2;
     border: none;
-
+font-size: var(--fs-smd);
     border-bottom: 2px solid white;
 }
 
@@ -408,6 +408,8 @@ nav .humberbox span {
     outline: none;
     box-shadow: none;
     border: none;
+    font-size: var(--fs-smd);
+    font-family: 'Helvetica';
     color: #F2F2F2;
     border-bottom: 2px solid white;
 }
@@ -415,6 +417,8 @@ nav .humberbox span {
 .form_button {
     background-color: transparent;
     color: white;
+    font-size: var(--fs-smd);
+    font-family: 'Helvetica';
     border: 2px solid white;
     padding: 8px 30px;
     border-radius: 10px;
@@ -552,7 +556,7 @@ footer div .icon {
         --fs-sm: 16px;
         --fs-smd: 18px;
         --fs-md: 20px;
-        --fs-Slg: 22px;
+        --fs-slg: 22px;
         --fs-lg: 24px;
         --fs-sxl: 26px;
         --fs-xl: 28px;
@@ -584,7 +588,7 @@ footer div .icon {
         --fs-sm: 16px;
         --fs-smd: 20px;
         --fs-md: 22px;
-        --fs-Slg: 24px;
+        --fs-slg: 24px;
         --fs-lg: 26px;
         --fs-sxl: 34px;
         --fs-xl: 52px;
