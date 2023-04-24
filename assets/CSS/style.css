@@ -177,7 +177,7 @@ nav ul li a {
     font-size: 24px;
     line-height: 29px;
     position: relative;
-
+  
     color: #FFFFFF;
 }
 
@@ -185,16 +185,16 @@ nav ul li a::before {
     content: '';
     position: absolute;
     height: 4px;
-    width: 100%;
+    width:0;
     background-color: white;
     bottom: -5px;
     transition: all 400ms linear;
-    opacity: 0;
+
     border-radius: 2px;
 }
 
 nav ul li a:hover::before {
-    opacity: 1;
+    width: 100%;
 }
 
 nav div button {
@@ -555,7 +555,7 @@ footer div .icon {
         --fs-3xl: 40px;
         --fs-4xl: 90px;
     }
-
+  
 }
 
 @media (min-width:992px) {
@@ -572,11 +572,8 @@ footer div .icon {
         --fs-3xl: 60px;
         --fs-4xl: 100px;
     }
-
-    .car_center_box {
-        height: 100px;
-        width: 100px;
-    }
+    .car_center_box{height: 100px;
+        width: 100px;}
 
     .green_star {
         display: block;
