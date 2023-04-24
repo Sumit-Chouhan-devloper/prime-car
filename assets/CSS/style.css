@@ -298,9 +298,12 @@ nav .humberbox span {
 }
 
 .card_content {
-    transform: translatey(  30%)
+    transform: translatey(30%)
 }
-.card_content1{  transform: translatey(  -5%)}
+
+.card_content1 {
+    transform: translatey(-5%)
+}
 
 /* cars slider */
 .slick-track {
@@ -396,7 +399,7 @@ nav .humberbox span {
     box-shadow: none;
     color: #F2F2F2;
     border: none;
-font-size: var(--fs-smd);
+    font-size: var(--fs-smd);
     border-bottom: 2px solid white;
 }
 
