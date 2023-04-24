@@ -298,8 +298,9 @@ nav .humberbox span {
 }
 
 .card_content {
-    transform: translatey(-20%)
+    transform: translatey(  30%)
 }
+.card_content1{  transform: translatey(  -5%)}
 
 /* cars slider */
 .slick-track {
@@ -343,8 +344,8 @@ nav .humberbox span {
 .car_center_box {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(4px);
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -367,6 +368,7 @@ nav .humberbox span {
 .green_star {
     display: none;
 }
+
 
 .blue_star {
     display: none;
@@ -593,9 +595,9 @@ footer div .icon {
         --fs-sxl: 34px;
         --fs-xl: 52px;
         --fs-s2xl: 50px;
-        --fs-2xl: 100px;
-        --fs-3xl: 110px;
-        --fs-4xl: 120px;
+        --fs-2xl: 80px;
+        --fs-3xl: 90px;
+        --fs-4xl: 100px;
     }
 }
 
